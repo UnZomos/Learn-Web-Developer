@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Sans-Serif;
+}
+
+body {
+    background-color: #eaeaea;
+    background-image: url('bg.png');
+}
+
+.nav {
+    position: fixed;
+    background-color: LightSkyBlue;
+    border-bottom: 5px solid Salmon;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    z-index: 9999;
+}
+
+.container {
+    border: 5px solid #666;
+    background-color: white;
+    width: 975px;
+    margin: 200px auto 100px;
+    position: relative;
+}
+
+.twitter {
+    background-image: url("rebon.png");
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    top: -29px;
+    right: -10px;
+}
+
+.heading {
+    margin: 0 15px 20px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.heading ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0 20px 0 0;
+}
+
+.heading ul li a {
+    text-decoration: none;
+    color: Salmon;
+}
+
+.hero {
+    background-image: url("/1.png");
+    height: 400px;
+    background-size: cover;
+    border-top: 4px solid LightSkyBlue;
+    border-bottom: 4px solid LightSkyBlue;
+}
+
+.content {
+    margin: 15px 13px;
+}
+
+.content .main {
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.content .main .title {
+    font-size: 35px;
+}
+
+.content .main .writer a,
+.footer .copy a {
+    text-decoration: none;
+    color: LightSkyBlue;
+}
+
+.main .content .writer {
+    font-size: 20px;
+}
+
+.main .content p {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+}
+
+.sidebar h3 {
+    font-size: 12px;
+}
+
+.sidebar img {
+    width: 100px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.sidebar p {
+    font-size: 12px;
+}
+
+.sidebar h5 {
+    border-bottom: 5px solid LightSkyBlue;
+    padding: 15px 0 7px;
+}
+
+.sidebar h5 span {
+    color: LightSkyBlue;
+}
+
+.komentar {
+    height: 50px;
+    background-color: #eaeaea;
+    margin: 10px 0;
+    border-radius: 50px;
+}
+
+.komentar i {
+    float: left;
+    line-height: 50px;
+    padding: 0 30px 0 20px;
+}
+
+.komentar p {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #666;
+    padding: 18px;
+}
+
+.footer .copy {
+    font-size: 15px;
+    text-align: center;
+    color: #eaeaea;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
